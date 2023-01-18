@@ -13,7 +13,9 @@ function Header({ loggedIn, windowWidth }) {
   return (
     <header className='header'>
       <div className='header__container'>
+        <a className='header__link' href='https://github.com/shulzpavel' target='_blank' rel='noreferrer'>        
         <img className='header__logo' src={logo} alt='Логотип сайта' onClick={handleLogoClick} />
+        </a>
         <NavTab />
       </div>
     </header>

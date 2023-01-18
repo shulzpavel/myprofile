@@ -6,7 +6,7 @@ import me from '../../images/paul.jpg';
 function Profile() {
     return (
         <div className='profile' id='about-me'>
-            <a className='profiel__link' href='https://github.com/shulzpavel' target='_blank' rel='noreferrer'>
+            <a className='profiel__link'>
                 <img className='profile__image' src={me} alt='me' />
             </a>
             <p className='profile__title'>Немного информации обо мне</p>
