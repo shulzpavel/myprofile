@@ -1,6 +1,7 @@
 @import url(./vendor/normalize.css);
-@import url(./vendor/fonts/__inter/fonts__inter.css);
-@import url(./vendor/fonts/__monoton/fonts__monoton.css);
+@import url(./vendor/fonts/__europeext/fonts__europeext.css);
+/* @import url(./vendor/fonts/__inter/fonts__inter.css);
+@import url(./vendor/fonts/__monoton/fonts__monoton.css); */
 @import url(./components/App/App.css);
 @import url(./components/Main/Main.css);
 @import url(./components/Footer/Footer.css);

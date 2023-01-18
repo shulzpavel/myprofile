@@ -10,7 +10,7 @@
 .project__list {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-columns: repeat(auto-fill, 250px);
   justify-content: center;
 }
 
@@ -24,7 +24,7 @@
   text-align: center;
   position: relative;
   z-index: 1;
-}
+} 
 
 @media screen and (max-width: 320px) {
   .project__list {
@@ -39,7 +39,7 @@
   line-height: 46px;
   text-align: center;
 }
-
+/*
 .project__triangle {
   width: 877px;
   height: 877px;
@@ -83,3 +83,4 @@
 .rotation {
   animation: rotation linear 20s infinite;
 }
+*/

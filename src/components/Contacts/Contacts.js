@@ -8,10 +8,10 @@ function Contacts() {
         div className = 'contacts'
         id = 'contacts' >
         <
-        p className = 'contacts__title' > Контакты < /p> <
+        p className = 'contacts__title' > Контакты мои родимые < /p> <
         div className = "contacts__container" >
         <
-        a href = "https://github.com/bmstustudent"
+        a href = "https://github.com/shulzpavel"
         className = "contacts__link"
         target = '_blank'
         rel = "noreferrer" >

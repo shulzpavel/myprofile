@@ -5,7 +5,7 @@ function NavTab() {
   return (
     <ul className='navtab'>
       <NavLink exact to='/' className='navtab__item'>
-        Главная
+        Проекты
       </NavLink>
       <NavLink exact to='/profile' className='navtab__item'>
         Обо мне

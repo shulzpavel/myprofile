@@ -5,7 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1d1d1f;
+  /* background-color: #1d1d1f; */
+  background-color: #111614	;
 }
 
 .footer__container {
