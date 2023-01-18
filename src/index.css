@@ -1,0 +1,20 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/__inter/fonts__inter.css);
+@import url(./vendor/fonts/__monoton/fonts__monoton.css);
+@import url(./components/App/App.css);
+@import url(./components/Main/Main.css);
+@import url(./components/Footer/Footer.css);
+@import url(./components/Header/Header.css);
+@import url(./components/Profile/Profile.css);
+@import url(./components/NavTab/NavTab.css);
+@import url(components/Tech/Tech.css);
+@import url(components/Projects/Projects.css);
+@import url(components/Cards/Cards.css);
+@import url(./components/Experience/Experience.css);
+@import url(./components/Contacts/Contacts.css);
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Monoton';
+  font-style:  normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(./Monoton-Regular.woff2) format('woff2'),
+       url(./Monoton-Regular.woff) format('woff');
+}

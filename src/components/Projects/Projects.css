@@ -1,0 +1,85 @@
+.project {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.project__list {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+}
+
+.project__title-mode {
+  color: white;
+  padding-top: 50px;
+  font-size: 40px;
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+  .project__list {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}
+
+.project__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.project__triangle {
+  width: 877px;
+  height: 877px;
+  background-image: url(../../images/triangle.svg);
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
+  transform: rotate(-15deg);
+}
+
+.project__square-pic {
+  width: 877px;
+  height: 877px;
+  background-image: url(../../images/triangle.svg);
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: rotate(-15deg);
+  z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+  .project__triangle {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation linear 20s infinite;
+}
