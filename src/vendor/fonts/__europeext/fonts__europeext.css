@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Europe';
+    font-weight: normal;
+    font-display: swap;
+    src: url(./europe-ext.woff2) format('woff2'),
+         url(./europe-ext.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Europe';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(./europe-ext.woff2) format('woff2'),
+         url(./europe-ext.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Europe';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(./europe-ext.woff2) format('woff2'),
+         url(./europe-ext.woff) format('woff');
+  }
+  
