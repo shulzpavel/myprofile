@@ -33,9 +33,20 @@
 
 @media all and (max-width: 600px) {
   .navtab {
-    grid-template-columns: repeat(3, 55px);
-    grid-template-rows: 26px;
-    grid-column-gap: 6px;
+    grid-template-columns: repeat(3, min-content);
+    grid-row-gap: 12px;
+    order: 0;
+    justify-content: space-evenly;
+  }
+
+  .navtab__item {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .navtab {
+    grid-template-columns: repeat(1, min-content);
   }
 
   .navtab__item {

@@ -2,10 +2,8 @@
   width: 100%;
   max-width: 90%;
   margin: 0 auto;
-  background: linear-gradient(
--217deg
-, #621e8f 16%, #762ca6 56%, #cf6e88 99%);
-border-radius: 30px;
+  background: linear-gradient(-217deg, #621e8f 16%, #762ca6 56%, #cf6e88 99%);
+  border-radius: 30px;
 }
 
 .experience__text {
@@ -14,6 +12,6 @@ border-radius: 30px;
   font-size: 40px;
   line-height: 1.05;
   font-weight: 700;
-  letter-spacing: -.015em;
+  letter-spacing: -0.015em;
   text-align: center;
 }

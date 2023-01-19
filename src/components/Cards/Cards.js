@@ -12,12 +12,12 @@ function Card({ item }) {
             src={imgUrl}
             className="card__image"
             alt="изображение страницы"
-          ></img>{" "}
-        </a>{" "}
-      </div>{" "}
+          ></img>
+        </a>
+      </div>
       <div className="card__content">
-        <h1 className="card__title"> {title} </h1>{" "}
-        <p className="card__description"> {description} </p>{" "}
+        <h1 className="card__title"> {title} </h1>
+        <p className="card__description"> {description} </p>
         <div>
           <a
             href={githubUrl}
@@ -30,13 +30,10 @@ function Card({ item }) {
               alt="логотип github"
               className="card__github-logo"
             />
-            <span className="card__github-link">
-              {" "}
-              перейти на GitHub проекта{" "}
-            </span>{" "}
-          </a>{" "}
-        </div>{" "}
-      </div>{" "}
+            <span className="card__github-link">перейти на GitHub проекта</span>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
