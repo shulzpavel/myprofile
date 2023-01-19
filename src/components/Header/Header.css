@@ -24,7 +24,7 @@
 
 .header__logo:hover {
   opacity: 0.8;
-  transition: opacity 0.2s ease;
+  transition: ease 1s;
 }
 
 @media all and (max-width: 800px) {

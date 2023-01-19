@@ -6,7 +6,6 @@
   flex-direction: column;
   align-items: center;
   /* background-color: #1d1d1f; */
-  background-color: #111614	;
 }
 
 .footer__container {
@@ -61,7 +60,7 @@
 }
 
 .footer__link:hover {
-  color: #06c;
+  color: #518851;
   transition: opacity 0.2s ease;
 }
 

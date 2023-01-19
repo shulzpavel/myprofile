@@ -10,8 +10,10 @@
 .project__list {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(auto-fill, 250px);
+  /* grid-template-columns: repeat(auto-fill, 250px); */
   justify-content: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .project__title-mode {
@@ -24,7 +26,7 @@
   text-align: center;
   position: relative;
   z-index: 1;
-} 
+}
 
 @media screen and (max-width: 320px) {
   .project__list {
