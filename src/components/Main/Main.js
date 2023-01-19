@@ -9,10 +9,10 @@ function Main() {
   return (
     <div className="main">
       <Switch>
-        <Profile />
-        {/* <Route exact path="/" component={Profile} /> */}
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/profile" component={Profile} />
+        {/* <Profile /> */}
+        <Route exact path="/" component={Profile} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/profile" component={Profile} />
       </Switch>
     </div>
   );
