@@ -10,10 +10,8 @@
 .project__list {
   display: grid;
   grid-gap: 30px;
-  /* grid-template-columns: repeat(auto-fill, 250px); */
+  grid-template-columns: repeat(auto-fill, 300px);
   justify-content: center;
-  padding-left: 6rem;
-  padding-right: 6rem;
 }
 
 .project__title-mode {
@@ -41,7 +39,7 @@
   line-height: 46px;
   text-align: center;
 }
-/*
+
 .project__triangle {
   width: 877px;
   height: 877px;
@@ -85,4 +83,3 @@
 .rotation {
   animation: rotation linear 20s infinite;
 }
-*/

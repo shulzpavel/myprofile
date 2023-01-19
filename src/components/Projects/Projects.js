@@ -9,6 +9,8 @@ function Projects() {
         <section className="project">
             <p className='project__title-mode'>Мои проекты</p>
             <div className="project__list">{cards}</div>
+            <div alt="Синий треугольник" className="project__triangle rotation"></div>
+            <div className="project__square-pic rotation"></div>
         </section>
     );
 };

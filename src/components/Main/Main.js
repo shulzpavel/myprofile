@@ -1,21 +1,13 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
-import "./Main.css";
-import Projects from "../Projects/Projects";
-import Profile from "../Profile/Profile";
-import Tech from "../Tech/Tech";
+import React from 'react';
+
 
 function Main() {
   return (
-    <div className="main">
-      <Switch>
-        {/* <Profile /> */}
-        <Route exact path="/" component={Profile} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/profile" component={Profile} />
-      </Switch>
-    </div>
-  );
+    <>
+      <main className='main'>
+      </main>
+    </>
+  )
 }
 
 export default Main;

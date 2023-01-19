@@ -4,27 +4,26 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  /* background-color: #1d1d1f; */
-  /* background-color: #111614	; */
+  background-color: #1d1d1f;
+  /* background-color: black; */
   padding: 18px 0;
 }
 
 .header__container {
   width: 89.0625%;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .header__logo {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
 }
 
 .header__logo:hover {
   opacity: 0.8;
-  transition: ease 1s;
+  transition: opacity 0.2s ease;
 }
 
 @media all and (max-width: 800px) {
