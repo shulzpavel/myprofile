@@ -41,14 +41,14 @@ const DATA = [
     imgUrl: movies,
     id: 4,
   },
-  {
-    title: "Profile-shulz",
-    description: "Profile-shulz",
-    githubUrl: "https://github.com/bmstustudent/myprofile",
-    url: "https://github.com/bmstustudent/myprofile",
-    imgUrl: me,
-    id: 5,
-  },
+  // {
+  //   title: "Profile-shulz",
+  //   description: "Profile-shulz",
+  //   githubUrl: "https://github.com/bmstustudent/myprofile",
+  //   url: "https://github.com/bmstustudent/myprofile",
+  //   imgUrl: me,
+  //   id: 5,
+  // },
 ];
 
 export { DATA };
