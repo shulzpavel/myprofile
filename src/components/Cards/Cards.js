@@ -1,6 +1,4 @@
 import React from "react";
-import github from "../../images/github-logo.svg";
-
 function Card({ item }) {
   const { url, imgUrl, title, description, githubUrl } = item;
 
@@ -18,21 +16,6 @@ function Card({ item }) {
       <div className="card__content">
         <h1 className="card__title"> {title} </h1>
         <p className="card__description"> {description} </p>
-        <div>
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card__github"
-          >
-            <img
-              src={github}
-              alt="логотип github"
-              className="card__github-logo"
-            />
-            <span className="card__github-link">перейти на GitHub проекта</span>
-          </a>
-        </div>
       </div>
     </div>
   );

@@ -1,54 +1,45 @@
-import how from "../../images/how.WebP";
-import russian from "../../images/russian.WebP";
-import mesto from "../../images/mesto.WebP";
-import movies from "../../images/movies.WebP";
-import me from "../../images/me.WebP";
+import how from "../../images/howto.jpg";
+import russian from "../../images/russian.jpg";
+import mesto from "../../images/mesto.jpg";
+import movies from "../../images/movies.jpg";
 
 const DATA = [
   {
-    title: "Научиться учиться",
+    title: "01. Научиться учиться",
     description:
-      "Мой первый код. Старница не адаптивная. Первое погружение в языки HTML и CSS",
-    githubUrl: "https://github.com/bmstustudent/how-to-learn",
-    url: "https://bmstustudent.github.io/how-to-learn/",
+      "Типовой одностраничный сайт. Страница не адаптивная, использованы технологии: BEM, Flexbox, Git, GH-pages.",
+    githubUrl: "https://github.com/shulzpavel/how-to-learn",
+    url: "https://shulzpavel.github.io/how-to-learn/",
     imgUrl: how,
     id: 1,
   },
   {
-    title: "Russian Travel",
+    title: "02. Russian Travel",
     description:
-      "Второй, более серьёзный проект. Страница полностью адаптивна ко всем разрешениям. Первое знакомство с flex",
-    githubUrl: "https://github.com/bmstustudent/russian-travel",
-    url: "https://bmstustudent.github.io/russian-travel/",
+      "Проект о путешествиях по стране. Страница полностью адаптивна ко всем разрешениям, реализовано плавное сжатие сайта, файловая структура по БЭМ. Bспользованы технологии: BEM, Flexbox, Git, GH-pages.",
+    githubUrl: "https://github.com/shulzpavel/russian-travel",
+    url: "https://shulzpavel.github.io/russian-travel/",
     imgUrl: russian,
     id: 2,
   },
   {
-    title: "Mesto Russian",
+    title: "03. Mesto",
     description:
-      "Место- сайт, где можно делиться фотографиями. Есть функция удаления, увеличения фото. Страница адаптивная.",
+      "Это сервис, где пользователь может делиться фотографими с другими пользователями, а также просматривать фотографии других. Bспользованы технологии: BEM, Grid, React, Webpack, Git, GH-pages.",
     githubUrl: "https://github.com/bmstustudent/mesto-react",
     url: "https://bmstustudent.github.io/mesto-react/",
     imgUrl: mesto,
     id: 3,
   },
   {
-    title: "Movies Explorer",
+    title: "04. Movies Explorer",
     description:
-      "Полноценный сайт - сервис по поиску фильмов. Есть регистрация. Валидация форм.",
+      "Дипломная работа по созданию интерактивной страницы, на которой пользователи могут искать фильмы по ключевым словам и добавлять их в избранное в личном кабинете. Функционал: aвторизация и регистрация пользователей, редактирование профиля, поиск фильмов по ключевым словам, поиск фильмов по длительности ,сохрание фильмов в избранное в личном кабинете.",
     githubUrl: "https://github.com/bmstustudent/movies-explorer-frontend",
-    url: "https://movies-project.ru",
+    url: "https://github.com/bmstustudent/movies-explorer-frontend",
     imgUrl: movies,
     id: 4,
   },
-  // {
-  //   title: "Profile-shulz",
-  //   description: "Profile-shulz",
-  //   githubUrl: "https://github.com/bmstustudent/myprofile",
-  //   url: "https://github.com/bmstustudent/myprofile",
-  //   imgUrl: me,
-  //   id: 5,
-  // },
 ];
 
 export { DATA };

@@ -10,9 +10,6 @@ function NavTab() {
       <NavLink exact to="/projects" className="navtab__item">
         Проекты
       </NavLink>
-      {/* <NavLink exact to='/tech' className='navtab__item'>
-        Технологии
-      </NavLink> */}
     </ul>
   );
 }

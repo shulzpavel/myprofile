@@ -13,7 +13,7 @@
 @import url(./components/Contacts/Contacts.css);
 
 body {
-  margin: 0;
+  margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
